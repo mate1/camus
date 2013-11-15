@@ -15,7 +15,7 @@
   <dependencies>
     <dependency>
       <groupId>com.linkedin.camus</groupId>
-      <artifactId>camus-api</artifactId>
+      <artifactId>camus-api_2.10</artifactId>
     </dependency>
     <dependency>
       <groupId>org.apache.avro</groupId>

@@ -15,7 +15,7 @@
   <dependencies>
     <dependency>
       <groupId>com.linkedin.camus</groupId>
-      <artifactId>camus-api</artifactId>
+      <artifactId>camus-api_2.10</artifactId>
     </dependency>
     <dependency>
       <groupId>com.linkedin.camus</groupId>
@@ -23,7 +23,7 @@
     </dependency>
     <dependency>
       <groupId>com.linkedin.camus</groupId>
-      <artifactId>camus-etl-kafka</artifactId>
+      <artifactId>camus-etl-kafka_2.10</artifactId>
     </dependency>
     <dependency>
       <groupId>org.apache.avro</groupId>
