@@ -7,7 +7,7 @@ hadoop-conf.kafka.monitor.tier=
 
 hadoop-conf.etl.run.move.data=true
 hadoop-conf.etl.run.tracking.post=true
-hadoop-conf.mapred.map.tasks=50
+hadoop-conf.mapred.cacheMap.tasks=50
 
 hadoop-conf.mapred.job.queue.name=default
 hadoop-conf.etl.hourly=hourly
@@ -24,8 +24,8 @@ etl.execution.history.max.of.quota=.4
 hadoop-conf.etl.audit.ignore.service.topic.list=
 
 hadoop-conf.mapred.output.compress=true
-hadoop-conf.mapred.map.tasks=30
-hadoop-conf.mapred.map.max.attempts=4
+hadoop-conf.mapred.cacheMap.tasks=30
+hadoop-conf.mapred.cacheMap.max.attempts=4
 
 
 hadoop-conf.kafka.blacklist.topics=

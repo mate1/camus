@@ -90,7 +90,7 @@ Here is an abbreviated list of commonly used parameters.
 * All files in this dir will be added to the distributed cache and placed on the classpath for hadoop tasks
  * hdfs.default.classpath.dir=
 * Max hadoop tasks to use, each task can pull multiple topic partitions
- * mapred.map.tasks=30
+ * mapred.cacheMap.tasks=30
 * Max historical time that will be pulled from each partition based on event timestamp
  * kafka.max.pull.hrs=1
 * Events with a timestamp older than this will be discarded. 
