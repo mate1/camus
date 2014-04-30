@@ -51,6 +51,14 @@
     </dependency>
 
     <!-- Added to inject the custom Mate1 classes -->
+
+    <dependency>
+      <groupId>com.edate</groupId>
+      <artifactId>edate-common</artifactId>
+      <version>1.0-SNAPSHOT</version>
+      <type>jar</type>
+    </dependency>
+
     <dependency>
       <groupId>com.edate</groupId>
       <artifactId>edate-database-full</artifactId>
@@ -65,10 +73,22 @@
       <type>jar</type>
     </dependency>
 
+    <dependency>
+      <groupId>com.mate1.avro</groupId>
+      <artifactId>schema-repo-client_2.10</artifactId>
+      <version>0.1-SNAPSHOT</version>
+      <type>jar</type>
+    </dependency>
+
     <!-- Because some of the Mate1 classes are in scala... -->
     <dependency>
       <groupId>org.scala-lang</groupId>
       <artifactId>scala-library</artifactId>
+      <type>jar</type>
+    </dependency>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-reflect</artifactId>
       <type>jar</type>
     </dependency>
   </dependencies>
