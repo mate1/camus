@@ -4,26 +4,26 @@
 
   <parent>
     <groupId>com.linkedin.camus</groupId>
-    <artifactId>camus-parent</artifactId>
-    <version>0.1.0-kafka0.8.1-scala2.10.3-SNAPSHOT</version>
+    <artifactId>camus-parent_2.10</artifactId>
+    <version>0.1.0-kafka0.8.1.1-SNAPSHOT</version>
   </parent>
 
-  <artifactId>camus-mate1-job</artifactId>
+  <artifactId>camus-mate1-job_2.10</artifactId>
   <name>Camus Mate1 job runner</name>
   <packaging>jar</packaging>
 
   <dependencies>
     <dependency>
       <groupId>com.linkedin.camus</groupId>
-      <artifactId>camus-api</artifactId>
+      <artifactId>camus-api_2.10</artifactId>
     </dependency>
     <dependency>
       <groupId>com.linkedin.camus</groupId>
-      <artifactId>camus-schema-registry</artifactId>
+      <artifactId>camus-schema-registry_2.10</artifactId>
     </dependency>
     <dependency>
       <groupId>com.linkedin.camus</groupId>
-      <artifactId>camus-etl-kafka</artifactId>
+      <artifactId>camus-etl-kafka_2.10</artifactId>
     </dependency>
     <dependency>
       <groupId>org.apache.avro</groupId>
@@ -45,7 +45,7 @@
     <!-- Because I want to be able to run the shaded camus-example jar directly and so it needs to have the CamusJob class -->
     <dependency>
       <groupId>com.linkedin.camus</groupId>
-      <artifactId>camus-etl-kafka</artifactId>
+      <artifactId>camus-etl-kafka_2.10</artifactId>
       <version>${project.version}</version>
     </dependency>
 

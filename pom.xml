@@ -8,8 +8,8 @@
 	</prerequisites>
 
 	<groupId>com.linkedin.camus</groupId>
-	<artifactId>camus-parent</artifactId>
-	<version>0.1.0-kafka0.8.1-scala2.10.3-SNAPSHOT</version>
+	<artifactId>camus-parent_2.10</artifactId>
+	<version>0.1.0-kafka0.8.1.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>Camus Parent (with Mate1 dependencies)</name>
 	<description>
@@ -25,23 +25,23 @@
 		<dependencies>
 			<dependency>
 				<groupId>com.linkedin.camus</groupId>
-				<artifactId>camus-api</artifactId>
-				<version>0.1.0-kafka0.8.1-scala2.10.3-SNAPSHOT</version>
+				<artifactId>camus-api_2.10</artifactId>
+				<version>0.1.0-kafka0.8.1.1-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>com.linkedin.camus</groupId>
-				<artifactId>camus-etl-kafka</artifactId>
-				<version>0.1.0-kafka0.8.1-scala2.10.3-SNAPSHOT</version>
+				<artifactId>camus-etl-kafka_2.10</artifactId>
+				<version>0.1.0-kafka0.8.1.1-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>com.linkedin.camus</groupId>
-				<artifactId>camus-schema-registry</artifactId>
-				<version>0.1.0-kafka0.8.1-scala2.10.3-SNAPSHOT</version>
+				<artifactId>camus-schema-registry_2.10</artifactId>
+				<version>0.1.0-kafka0.8.1.1-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>com.linkedin.camus</groupId>
-				<artifactId>camus-schema-registry</artifactId>
-				<version>0.1.0-kafka0.8.1-scala2.10.3-SNAPSHOT</version>
+				<artifactId>camus-schema-registry_2.10</artifactId>
+				<version>0.1.0-kafka0.8.1.1-SNAPSHOT</version>
 				<type>test-jar</type>
 				<scope>test</scope>
 			</dependency>
@@ -70,11 +70,6 @@
 				<artifactId>joda-time</artifactId>
 				<version>1.6</version>
 			</dependency>
-                        <!--dependency>
-                                <groupId>org.apache.hadoop</groupId>
-                                <artifactId>hadoop-core</artifactId>
-                                <version>1.0.3</version>
-                        </dependency-->
 			<dependency>
 				<groupId>org.apache.hadoop</groupId>
 				<artifactId>hadoop-core</artifactId>
@@ -104,12 +99,9 @@
 				</exclusions>
 			</dependency>
 			<dependency>
-				<!--groupId>kafka</groupId>
-				<artifactId>kafka</artifactId>
-				<version>0.8-SNAPSHOT</version-->
 				<groupId>org.apache.kafka</groupId>
 			        <artifactId>kafka_2.10</artifactId>
-			        <version>0.8.1</version>
+			        <version>0.8.1.1</version>
 			</dependency>
 			<dependency>
 				<groupId>com.github.sgroschupf</groupId>
@@ -119,7 +111,6 @@
 			<dependency>
 				<groupId>org.apache.zookeeper</groupId>
 				<artifactId>zookeeper</artifactId>
-				<!--version>3.3.4</version-->
 				<version>3.4.5-cdh4.2.1</version>
 			</dependency>
 			<dependency>
