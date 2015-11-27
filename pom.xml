@@ -9,7 +9,7 @@
 
 	<groupId>com.linkedin.camus</groupId>
 	<artifactId>camus-parent_2.10</artifactId>
-	<version>0.1.0-kafka0.8.2.2-scala2.10.4</version>
+	<version>0.1.0-kafka0.8.2.2</version>
 	<packaging>pom</packaging>
 	<name>Camus Parent (with Mate1 dependencies)</name>
 	<description>
@@ -26,22 +26,22 @@
 			<dependency>
 				<groupId>com.linkedin.camus</groupId>
 				<artifactId>camus-api_2.10</artifactId>
-				<version>0.1.0-kafka0.8.2.2-scala2.10.4</version>
+				<version>0.1.0-kafka0.8.2.2</version>
 			</dependency>
 			<dependency>
 				<groupId>com.linkedin.camus</groupId>
 				<artifactId>camus-etl-kafka_2.10</artifactId>
-				<version>0.1.0-kafka0.8.2.2-scala2.10.4</version>
+				<version>0.1.0-kafka0.8.2.2</version>
 			</dependency>
 			<dependency>
 				<groupId>com.linkedin.camus</groupId>
 				<artifactId>camus-schema-registry_2.10</artifactId>
-				<version>0.1.0-kafka0.8.2.2-scala2.10.4</version>
+				<version>0.1.0-kafka0.8.2.2</version>
 			</dependency>
 			<dependency>
 				<groupId>com.linkedin.camus</groupId>
 				<artifactId>camus-schema-registry_2.10</artifactId>
-				<version>0.1.0-kafka0.8.2.2-scala2.10.4</version>
+				<version>0.1.0-kafka0.8.2.2</version>
 				<type>test-jar</type>
 				<scope>test</scope>
 			</dependency>

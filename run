@@ -9,4 +9,4 @@ fi;
 
 export properties_file=$1
 
-java -cp camus-mate1-job/target/camus-mate1-job_2.10-0.1.0-kafka0.8.2.2-scala2.10.4-shaded.jar:/etc/hadoop/conf:/usr/lib/hadoop-hdfs/hadoop-hdfs.jar:log4j.properties com.linkedin.camus.etl.kafka.CamusJob -P $properties_file
+java -cp camus-mate1-job/target/camus-mate1-job_2.10-0.1.0-kafka0.8.2.2-shaded.jar:/etc/hadoop/conf:/usr/lib/hadoop-hdfs/hadoop-hdfs.jar:log4j.properties com.linkedin.camus.etl.kafka.CamusJob -P $properties_file
