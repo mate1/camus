@@ -65,7 +65,9 @@ You can build Camus with:
 
     mvn clean package
 
-Note that there are two jars that are not currently in a public Maven repo. These jars (kafka-0.7.2 and avro-schema-repository-1.74-SNAPSHOT) are supplied in the lib directory, and maven will automatically install them into your local Maven cache (usually ~/.m2).
+The avro-repo-bundle jar is not currently available in a public Maven repository so it is supplied in the lib directory instead, and maven will automatically install them into your local Maven cache (usually ~/.m2).
+https://github.com/linkedin/camus/tree/master/lib
+https://github.com/mate1/maven/tree/master/public/org/apache/avro/repo/avro-repo-bundle/1.7.5-1124-SNAPSHOT
 
 ### First, Create a Custom Kafka Message to Avro Record Decoder
 

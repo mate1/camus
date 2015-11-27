@@ -5,7 +5,7 @@
   <parent>
     <groupId>com.linkedin.camus</groupId>
     <artifactId>camus-parent_2.10</artifactId>
-    <version>0.1.0-kafka0.8.1.1-SNAPSHOT</version>
+    <version>0.1.0-kafka0.8.2.2-scala2.10.4</version>
   </parent>
 
   <artifactId>camus-api_2.10</artifactId>
