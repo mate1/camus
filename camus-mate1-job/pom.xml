@@ -5,7 +5,7 @@
   <parent>
     <groupId>com.linkedin.camus</groupId>
     <artifactId>camus-parent_2.10</artifactId>
-    <version>0.1.0-kafka0.8.2.2</version>
+    <version>0.1.0-kafka0.8.2.2-SNAPSHOT</version>
   </parent>
 
   <artifactId>camus-mate1-job_2.10</artifactId>
@@ -60,15 +60,15 @@
 
     <dependency>
       <groupId>com.edate</groupId>
-      <artifactId>edate-database-full</artifactId>
-      <version>14.0-SNAPSHOT</version>
+      <artifactId>database_2.10</artifactId>
+      <version>1.0.0</version>
       <type>jar</type>
     </dependency>
     
     <dependency>
       <groupId>com.edate</groupId>
-      <artifactId>edate-consumers</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <artifactId>event-consumers_2.10</artifactId>
+      <version>1.0.0</version>
       <type>jar</type>
     </dependency>
 

@@ -9,7 +9,7 @@
 
 	<groupId>com.linkedin.camus</groupId>
 	<artifactId>camus-parent_2.10</artifactId>
-	<version>0.1.0-kafka0.8.2.2</version>
+	<version>0.1.0-kafka0.8.2.2-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>Camus Parent (with Mate1 dependencies)</name>
 	<description>
@@ -26,22 +26,22 @@
 			<dependency>
 				<groupId>com.linkedin.camus</groupId>
 				<artifactId>camus-api_2.10</artifactId>
-				<version>0.1.0-kafka0.8.2.2</version>
+				<version>${project.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.linkedin.camus</groupId>
 				<artifactId>camus-etl-kafka_2.10</artifactId>
-				<version>0.1.0-kafka0.8.2.2</version>
+				<version>${project.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.linkedin.camus</groupId>
 				<artifactId>camus-schema-registry_2.10</artifactId>
-				<version>0.1.0-kafka0.8.2.2</version>
+				<version>${project.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.linkedin.camus</groupId>
 				<artifactId>camus-schema-registry_2.10</artifactId>
-				<version>0.1.0-kafka0.8.2.2</version>
+				<version>${project.version}</version>
 				<type>test-jar</type>
 				<scope>test</scope>
 			</dependency>
@@ -183,6 +183,11 @@
 	</repositories>
 
 	<distributionManagement>
+		<repository>
+			<id>maven.mate1</id>
+			<name>Mate1 Internal Repository</name>
+			<url>http://maven.mate1:8081/nexus/content/repositories/releases/</url>
+		</repository>
 		<snapshotRepository>
 			<id>maven.mate1</id>
 			<name>Mate1 Internal Snapshot Repository</name>
@@ -192,6 +197,15 @@
 
 	<build>
 		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.3</version>
+				<configuration>
+					<source>1.7</source>
+					<target>1.7</target>
+				</configuration>
+			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-jar-plugin</artifactId>
